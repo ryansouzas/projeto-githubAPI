@@ -1,10 +1,18 @@
-import Header from "./components/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+import ClientHome from "./routes";
 
 function App() {
-  
+
   return (
     <>
-      <Header/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<ClientHome />}>
+            <Route index element={<Home/>}/>
+          </Route>  
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

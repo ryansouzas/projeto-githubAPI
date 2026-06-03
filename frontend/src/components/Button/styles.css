@@ -1,0 +1,5 @@
+.btn-blue {
+  border: none;
+  background-color: var(--app-color-btn-primary);
+  color: var(--app-color-font-primary);
+}
