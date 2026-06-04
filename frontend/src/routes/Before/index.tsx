@@ -1,7 +1,7 @@
-import BeforePage from "../../components/BeforePage";
+import SearchCard from "../../components/SearchCard";
 
 export default function Before(){
     return(
-        <BeforePage/>
+        <SearchCard/>
     )
 }

@@ -4,12 +4,15 @@
   --app-color-bg-primary: #1890FF;
   --app-color-bg-secondary: #E6F7FF;
   --app-color-bg-tertiary: #F5F5F5;
+  --app-color-bg-quaternary: #FFFFFF;
 
   --app-color-font-primary: #ffffff;
   --app-color-font-secondary: #000000;
   --app-color-font-tertiary: #7E7E7E;
+  --app-color-font-quaternary: #1890FF;
 
   --app-color-btn-primary: #1890FF;
+
 }
 
 * {
@@ -39,6 +42,15 @@ header {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+/*-----------------------------------------------------------------*/
+/* card styles */
+
+.app-card-container{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px
 }
 
 /*-----------------------------------------------------------------*/

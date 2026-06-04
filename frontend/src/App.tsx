@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import ClientHome from "./routes";
 import Before from "./routes/Before";
+import After from "./routes/After";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path="home" element={<Home/>}/>
             <Route path="before" element={<Before/>}/>
+            <Route path="after" element={<After/>}/>
           </Route>  
         </Routes>
       </BrowserRouter>

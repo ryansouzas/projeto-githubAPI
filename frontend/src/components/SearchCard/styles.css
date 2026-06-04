@@ -1,8 +1,5 @@
-.app-card-container{
-    background-color: var( --app-color-bg-secondary);
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 40px
+.search-card-container{
+  background-color: var( --app-color-bg-secondary);
 }
 
 .app-card-container h1{
