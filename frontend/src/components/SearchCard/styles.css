@@ -1,13 +1,17 @@
 .search-card-container{
   background-color: var( --app-color-bg-secondary);
+  padding: 20px 25px;
+  border-radius: 10px;
+  
 }
 
-.app-card-container h1{
+.search-card-content h1{
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 
-.app-card-container input{
+.search-card-content input{
   width: 300px;
   height: 40px;
 

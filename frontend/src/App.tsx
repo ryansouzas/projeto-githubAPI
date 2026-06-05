@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./routes/Home";
 import ClientHome from "./routes";
-import Before from "./routes/Before";
 import After from "./routes/After";
+import Before from "./routes/Before";
+import Home from "./routes/Home";
+import NotFound from "./routes/NotFound";
 
 function App() {
 
@@ -12,10 +13,10 @@ function App() {
         <Routes>
           <Route path="/" element={<ClientHome />}>
             <Route index element={<Home/>}/>
-            <Route path="home" element={<Home/>}/>
             <Route path="before" element={<Before/>}/>
             <Route path="after" element={<After/>}/>
-          </Route>  
+          </Route> 
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
     </>

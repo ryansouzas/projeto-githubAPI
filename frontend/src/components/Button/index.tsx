@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 type Props = {
-    text : string;
+    text: string;
+    to: string;
 }
 
-export default function Button({text}: Props) {
+export default function Button({ to, text }: Props) {
     return (
-        <div className="app-btn btn-blue mt-20">
+        <Link className="app-btn btn-blue" to={to}>
             {text}
-        </div>
+        </Link>
     );
 }

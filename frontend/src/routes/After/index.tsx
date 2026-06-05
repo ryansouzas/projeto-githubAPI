@@ -4,8 +4,18 @@ import SearchCard from "../../components/SearchCard";
 export default function After(){
     return(
         <>
-            <SearchCard/>
-            <ProfileCard/>
+        <main className="app-container">
+            
+            <section>
+                <SearchCard/>
+            </section>
+            
+            <section>
+                <ProfileCard/>
+            </section>
+            
+        </main>
+            
         </>
         
     );

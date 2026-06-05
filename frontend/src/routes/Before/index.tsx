@@ -2,6 +2,13 @@ import SearchCard from "../../components/SearchCard";
 
 export default function Before(){
     return(
-        <SearchCard/>
+        <main className="app-container">
+            
+            <section className="mt-40">
+                <SearchCard/>
+            </section>
+            
+        </main>
+        
     )
 }
