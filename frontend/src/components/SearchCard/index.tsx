@@ -11,7 +11,7 @@ export default function SearchCard() {
                 <input type="text" placeholder="Usuário GitHub" />
             </div>
 
-            <Button
+            <Button 
                 text="Encontrar"
                 to="/after"
             />

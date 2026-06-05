@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ClientHome from "./routes";
-import After from "./routes/After";
 import Before from "./routes/Before";
+import After from "./routes/After";
 import Home from "./routes/Home";
 import NotFound from "./routes/NotFound";
 

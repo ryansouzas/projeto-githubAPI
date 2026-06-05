@@ -8,7 +8,7 @@ type Props = {
 
 export default function Button({ to, text }: Props) {
     return (
-        <Link className="app-btn btn-blue" to={to}>
+        <Link className="app-btn btn-blue mt-20" to={to}>
             {text}
         </Link>
     );

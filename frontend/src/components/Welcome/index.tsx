@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
 import Button from "../Button";
-import "./styles.css"
+import "./styles.css";
 
 export default function HomePage() {
     return (
@@ -10,9 +9,10 @@ export default function HomePage() {
                     <h1>Desafio GitHub API</h1>
                     <h3>DevSuperior - Escola de Programação</h3>
                 </div>
-                <Link to={"/before"}>
-                    <Button text="Começar"/>
-                </Link>
+                <Button
+                    text="Começar"
+                    to="/before"
+                />
                 
             </main>
 

@@ -5,12 +5,12 @@ export default function After(){
     return(
         <>
         <main className="app-container">
-            
-            <section>
+           
+           <section className="mt-40">
                 <SearchCard/>
-            </section>
+           </section>
             
-            <section>
+            <section className="mt-40">
                 <ProfileCard/>
             </section>
             
