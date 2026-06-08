@@ -11,7 +11,7 @@ export default function SearchCard() {
         <div className="app-container search-card-container">
 
             <div className="search-card-content">
-                <h1>Enconte um perfil no Github</h1>
+                <h1>Encontre um perfil no Github</h1>
                 <input
                     type="text"
                     placeholder="Usuário GitHub"
@@ -22,7 +22,7 @@ export default function SearchCard() {
 
             <Button
                 text="Encontrar"
-                to="/after"
+                to={`/after/${username}`}
             />
         </div>
 

@@ -1,4 +1,4 @@
-import ProfileCard from "../../components/ProfileCard";
+import { Outlet } from "react-router-dom";
 import SearchCard from "../../components/SearchCard";
 
 export default function After() {
@@ -11,7 +11,7 @@ export default function After() {
                 </section>
 
                 <section className="mt-40">
-                    <ProfileCard />
+                    <Outlet />
                 </section>
 
             </main>
