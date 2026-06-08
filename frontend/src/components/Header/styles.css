@@ -1,4 +1,9 @@
 .app-header{
     background-color: var(--app-color-bg-primary);
+    
+}
+
+.app-header a{
+    text-decoration: none;
     color: var(--app-color-font-primary);
 }
